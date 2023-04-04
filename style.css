@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+
+}
+header{
+    background-color: #FFD900;
+    height: 100px; /* largura do amarelado */
+    padding: 20px; /* espassamento */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.image-container p {
+  color: #E33881;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.reviva {
+  width: 50%;
+  color: white;
+  background-color: #514988;
+  margin-right: 20px;
+}
+.reviva h1{
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  color: #f3c61f;
+
+}
+.reviva h2 {
+  text-align: center;
+  font-size: 40px;
+  
+}
+.reviva p{
+  text-align: center;
+  font-size: 25px;
+}
+
+.timer {
+  width: 60%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  grid-auto-flow: column;  
+  margin: 0 auto;
+  
+}
+
+.timer h1,
+.timer p {
+  font-size: 50px;
+  display: inline-block;
+  margin-right: 10px;
+  color: #514988;
+  font-weight: bold;
+}
+.ainda{
+  color: #f3c61f;
+}
+.daTempo h1 {
+  color: #f3c61f;
+  text-align: center;
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: bold;
+}
+.garanta {
+  width: 596px;
+  height: 150px;
+  background-color: #514988;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  border-radius: 20px;
+  margin-left: 200px;
+  border-color: transparent;
+}
+.garanta p{
+  color: white;
+  font-size: 42px;
+}
+
